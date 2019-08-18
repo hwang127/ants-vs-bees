@@ -45,4 +45,17 @@ Bees. Bees are the antagonistic troops in the game that the player must defend t
 
 Queen Ant: There is one queen ant in the whole colony. She is able to attack bees but she also has a special ability of fortifying the other ant troops. Bees can also win if they destroy the queen ant.
 
-Core classes
+***Playing the game***
+
+The game can be run in two modes: as a text-based game or using a graphical user interface (GUI). The game logic is the same in either case, but the GUI enforces a turn time limit that makes playing the game more exciting. The text-based interface is provided for debugging and development.
+
+The files are separated according to these two modes. ants.py knows nothing of graphics or turn time limits.
+
+To start a text-based game, run
+
+
+python3 ants.py
+
+To start a graphical game, run
+
+python3 gui.py
